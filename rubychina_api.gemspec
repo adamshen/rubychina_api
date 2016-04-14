@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = %q{Simple wrapper for the RubyChina API}
   spec.homepage = "https://github.com/adamshen/rubychina_api"
   spec.license = "MIT"
-  spec.files = %w(CONTRIBUTING.md LICENSE.md README.md Rakefile octokit.gemspec)
+  spec.files = %w(LICENSE.txt README.md Rakefile rubychina_api.gemspec)
   spec.files += Dir["lib/**/*"]
 
   spec.add_dependency "faraday"
